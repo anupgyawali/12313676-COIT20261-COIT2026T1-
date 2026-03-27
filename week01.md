@@ -5,7 +5,7 @@
 [GNS3-Basics](GNS3-Files/GNS3-Intro-12313676.gns3project) 
 
 2. Screenshot of Network \
-![Network-Screenshot](Images/GNS-Intro-12313676-network.png) 
+![Network-Screenshot](Images/GNS-intro-12313676) 
 
 3. Screenshot of console showing IP Address \
 ![Console-Screenshot](Images/GNS-Intro-12313676-ipaddress.png) 
