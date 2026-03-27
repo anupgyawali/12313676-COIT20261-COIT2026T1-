@@ -8,7 +8,7 @@
 ![Network-Screenshot](Images/GNS-intro-12313676) 
 
 3. Screenshot of console showing IP Address \
-![Console-Screenshot](Images/GNS-Intro-12313676-ipaddress.png) 
+![Console-Screenshot](Images/GNS-intro-Network-12313676) 
 
 4. Commands learned in this tutorial \
    cd - to change directory \
