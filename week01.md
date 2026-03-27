@@ -5,10 +5,10 @@
 [GNS3-Basics](GNS3-Files/GNS3-Intro-12313676.gns3project) 
 
 2. Screenshot of Network \
-![Network-Screenshot](images/GNS-intro-12313676) 
+![Network-Screenshot](images/GNS-intro-12313676.png) 
 
 3. Screenshot of console showing IP Address \
-![Console-Screenshot](images/GNS-intro-Network-12313676) 
+![Console-Screenshot](images/GNS-intro-Network-12313676.png) 
 
 4. Commands learned in this tutorial \
    cd - to change directory \
