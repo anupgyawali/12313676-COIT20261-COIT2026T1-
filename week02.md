@@ -14,10 +14,12 @@
 The IP address for Host1 and Host2 are assigned manually from the configure menu in GNS3 by removing the # from some commands.\
 
 **Host 1** 
-![Host-Screenshot](Images/Setting-IP-12313676-Host1.png) 
 
-**Host 2** 
-![Host-Screenshot](Images/Setting-IP-12313676-Host2.png) 
+![Host1-Screenshot](images/Setting-IP-12313676-Host1.png) 
+
+**Host 2**
+
+![Host2-Screenshot](images/Setting-IP-12313676-Host2.png) 
 
 
 **Host 3** 
@@ -26,7 +28,7 @@ The IP for Host3 is assigned using command from terminal ( *ip address add <ipad
 *#ip address 10.1.1.4/24 dev eth0* \
 The IP Configuration gets erased upon restart of the linux host.
 
-![Host-Screenshot](Images/Setting-IP-12313676-Host3.png) 
+![Host3-Screenshot](images/Setting-IP-12313676-Host3.png) 
 
 **Host 4** 
 
