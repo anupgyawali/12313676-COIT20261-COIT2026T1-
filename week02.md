@@ -3,7 +3,7 @@
 ## Task 1: Setting Static IP Addresses
 ## Outputs
 1. GNS3 File \
-[GNS3-Setting IP](GNS3-Files/Setting-IP-12313676.gns3project)
+[GNS3-Setting-IP](Setting-IP-12313676.gns3project)
 
 2. Network Diagram \
 ![Network-Screenshot](/images/Setting-IP-12313676-network.png)
