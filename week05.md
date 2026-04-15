@@ -4,7 +4,7 @@
 
 ### Exported Project: 
 
-[GNS3-Vlan-Basics](Vlan-Basics-12313676.gns3project)
+[GNS3-Vlan-Router](Vlan-Router-12313676.gns3project)
 
 
 ### Screenshot of Network:
