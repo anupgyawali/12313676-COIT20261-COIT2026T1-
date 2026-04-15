@@ -16,4 +16,11 @@
 
 ## Task 2: Setup VLANs on a Router
 
+### Screenshot of Network:
+
 ![Network-Screenshot](/images/Vlan-Router-12313676-network.png)
+
+
+### Screenshot showing ports and tags on switch:
+
+![Network-Screenshot](/images/Vlan-Router-12313676-n.png)
