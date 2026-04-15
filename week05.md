@@ -16,4 +16,4 @@
 
 ## Task 2: Setup VLANs on a Router
 
-![Network-Screenshot](/images/Setting-IP-12313676-network.png)
+![Network-Screenshot](/images/Vlan-Router-12313676-network.png)
