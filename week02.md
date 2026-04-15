@@ -11,7 +11,7 @@
 3. IP Address of Hosts 
 
 **Host 1 and Host 2** \
-The IP address for Host1 and Host2 are assigned manually from the configure menu in GNS3 by removing the # from some commands.\
+The IP address for Host1 and Host2 are assigned manually from the configure menu in GNS3 by removing the # from some commands.
 
 **Host 1** 
 
