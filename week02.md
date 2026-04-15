@@ -35,6 +35,9 @@ The IP is assigned via terminal. Open host4 terminal and edit the configuration 
 Used text editor nano to edit the configuration file. \
 The IP assigned is fixed and the restart doesnt removed the IP. 
 
+![Host-Screenshot](images/Setting-IP-112313676-Host4.png) 
+
+
 ![Host-Screenshot](images/Setting-IP-12313676-Host4.png) 
 
 
