@@ -24,8 +24,7 @@ The IP address for Host1 and Host2 are assigned manually from the configure menu
 
 **Host 3** 
 
-The IP for Host3 is assigned using command from terminal ( *ip address add <ipaddress>/<mask> dev eth0* ) \
-*#ip address 10.1.1.4/24 dev eth0* \
+The IP for Host3 is assigned using command from terminal 
 The IP Configuration gets erased upon restart of the linux host.
 
 ![Host3-Screenshot](images/Setting-IP-12313676-Host3.png) 
@@ -36,7 +35,7 @@ The IP is assigned via terminal. Open host4 terminal and edit the configuration 
 Used text editor nano to edit the configuration file. \
 The IP assigned is fixed and the restart doesnt removed the IP. 
 
-![Host-Screenshot](Images/Setting-IP-12313676-Host4.png) 
+![Host-Screenshot](images/Setting-IP-12313676-Host4.png) 
 
 
 ## Task 2: Testing Network Connectivity and Delay with Ping
