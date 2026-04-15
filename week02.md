@@ -6,7 +6,7 @@
 [GNS3-Setting IP](GNS3-Files/Setting-IP-12313676.gns3project)
 
 2. Network Diagram \
-![Network-Screenshot](./Images/Setting-IP-12313676-Network.png)
+![Network-Screenshot](./Images/Setting-IP-12313676-network.png)
 
 3. IP Address of Hosts 
 
