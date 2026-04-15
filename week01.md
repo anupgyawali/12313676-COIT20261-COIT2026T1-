@@ -2,7 +2,7 @@
 ## Task 1: Introduction to GNS3 Basics
 ## Outputs
 1. GNS3 File \
-[GNS3-Basics](GNS3-Files/GNS3-Intro-Solution-12313676.gns3project) 
+[GNS3-Basics](GNS3-Intro-12313676.gns3project) 
 
 2. Screenshot of Network \
 ![Network-Screenshot](images/GNS-intro-12313676.png) 
