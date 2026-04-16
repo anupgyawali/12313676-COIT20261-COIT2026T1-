@@ -28,4 +28,4 @@
 
 ### Screenshot showing ports and tags on switch:
 
-![Network-Screenshot](/images/Vlan-Router-12313676-n.png)
+![Network-Screenshot](/images/Vlan-Router-12313676-ports.png)
