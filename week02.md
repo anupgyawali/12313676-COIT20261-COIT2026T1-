@@ -53,5 +53,18 @@ The IP assigned is fixed and the restart doesnt removed the IP.
 
 3. Ping command (and output) when limiting the count, setting the data size and interval to non-default values.
 
-![Ping-Screenshot](images/Ping-Basics-12313676-options.png)
+Data size:
+
+![Ping-Screenshot](images/Ping-Basics-12313676-size-options.png)
+
+Limiting count: 
+
+
+![Ping-Screenshot](images/Ping-Basics-12313676-limit-options.png)
+
+interval:
+
+
+![Ping-Screenshot](images/Ping-Basics-12313676-time-options.png)
+
 
