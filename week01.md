@@ -16,7 +16,5 @@
    cd / - to move into root diorectory \
    ip address - to view ip address \
    ifconfig - to view the ip address \
-   vi - text editor used to change configurattion file \
-   vim - text editor used to change configuration file \
-   nano - text editor used to change configuration file \
-   cat - to view the file 
+   
+
