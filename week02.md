@@ -46,22 +46,12 @@ The IP assigned is fixed and the restart doesnt removed the IP.
 ## Outputs
 
 1. Ping command output \
-![Ping-Screenshot](Images/Ping-Basics-12313676-Simple.png)
+![Ping-Screenshot](images/Ping-Basics-12313676-simple.png)
 
 2. Ping command and output to a wrong IP \
-![Ping-Screenshot](Images/Ping-Basics-12313676-Error.png)
+![Ping-Screenshot](images/Ping-Basics-12313676-error.png)
 
 3. Ping command (and output) when limiting the count, setting the data size and interval to non-default values.
 
-With Count Limit \
-![Ping-Screenshot](Images/Ping-Basics-12313676-CountLimit.png)
-
-With Custom Data Size \
-![Ping-Screenshot](Images/Ping-Basics-12313676-Size.png)
-
-With Custom Interval \
-![Ping-Screenshot](Images/Ping-Basics-12313676-Intervel.png)
-
-Customized Ping using various custom paramaters \
-![Ping-Screenshot](Images/Ping-Basics-12313676-All.png)
+![Ping-Screenshot](images/Ping-Basics-12313676-options.png)
 
