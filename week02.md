@@ -65,6 +65,6 @@ Limiting count:
 interval:
 
 
-![Ping-Screenshot](images/Ping-Basics-12313676-time-options.png)
+![Ping-Screenshot](images/Ping-Basics-12313676-interval-options.png)
 
 
