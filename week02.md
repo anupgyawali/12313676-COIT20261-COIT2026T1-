@@ -46,7 +46,7 @@ The IP assigned is fixed and the restart doesnt removed the IP.
 ## Outputs
 
 1. Ping command output \
-![Ping-Screenshot](images/Ping-Basics-1231376-simple.png)
+![Ping-Screenshot](images/Ping-Basics-12313676-simple.png)
 
 2. Ping command and output to a wrong IP \
 ![Ping-Screenshot](images/Ping-Basics-12313676-error.png)
