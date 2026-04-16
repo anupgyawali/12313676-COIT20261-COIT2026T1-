@@ -1,1 +1,71 @@
+# Week 04: Routing
+# Task 1: View Routing Tables  
+1. GNS3 Project file      
+[GNS3 File](GNS3-Files/View-Route-12313676.gns3project)   
+
+2. Network Diagram   
+![Screenshot](Images/View-Routes-12313676-network.png)
+
+3. Record of IP Routes   
+![IPRoutes-Scr](Images/View-Routes-12313676-host1-route.png)   
+![IPRoutes-Scr](Images/View-Routes-12313676-host2-route.png)   
+![IPRoutes-Scr](Images/View-Routes-12313676-router-route.png)   
+![IPRoutes-Scr](Images/View-Routes-12313676-host3-route.png)   
+
+4. Ping to other network       
+![Ping-SShot](Images/View-Routes-12313676-ping.png)   
+
+## Task 2: Dynamic Routing with OSPF
+
+## Outputs
+
+1. GNS3 File demonstrating OSPF    
+[GNS3-SPFile](GNS3-Files/OSPF-Basics-12313676-Template.gns3project)   
+
+2. Network Diagram demonstrating OSPF     
+![IPRoutes-Scr](Images/OSPF-Basics-12313676-network.png)   
+
+3. Neigbour routers of FRR1     
+![OSPF-Screenshot](Images/OSPF-Basics-12313676-neigbhor-router.png)   
+
+4. Routing table for two routers       
+![OSPFTable-Screenshot](Images/OSPF-Basics-12313676-routing-table-FFR2.png)     
+![OSPFTable-Screenshot](Images/OSPF-Basics-12313676-routing-table-FFR3.png)    
+
+5. Routing Table Summary    
+
+FRR‑1
+| Destination | Next Node |
+|------------|-----------|
+| 10.10.1.0/24 | Direct |
+| 10.10.2.0/24 | FRR‑2 |
+| 10.10.3.0/24 | FRR‑3 |
+
+FRR‑2
+| Destination | Next Node |
+|------------|-----------|
+| 10.10.2.0/24 | Direct |
+| 10.10.4.0/24 | Direct |
+| 10.10.1.0/24 | FRR‑1 |
+
+FRR‑3
+| Destination | Next Node |
+|------------|-----------|
+| 10.10.3.0/24 | Direct |
+| 10.10.5.0/24 | Direct |
+| 10.10.1.0/24 | FRR‑1 |
+
+FRR‑4
+| Destination | Next Node |
+|------------|-----------|
+| 10.10.6.0/24 | Direct |
+| 10.10.3.0/24 | FRR‑3 |
+| 10.10.5.0/24 | FRR‑3 |
+
+6. Traceroute Command Output    
+* Without stopping NETem      
+![TracerouteScreenshot](Images/OSPF-Basics-12313676-network-traceroute.png)   
+
+* Stopping NETem 1     
+![TracerouteScreenshot](Images/OSPF-Basics-12313676-network-traceroute-linkdown.png)   
 
