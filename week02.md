@@ -11,7 +11,7 @@
 3. IP Address of Hosts 
 
 **Host 1 and Host 2** \
-The IP address for Host1 and Host2 are assigned manually from the configure menu in GNS3 by removing the # from some commands.
+
 
 **Host 1** 
 
@@ -24,16 +24,11 @@ The IP address for Host1 and Host2 are assigned manually from the configure menu
 
 **Host 3** 
 
-The IP for Host3 is assigned using command from terminal 
-The IP Configuration gets erased upon restart of the linux host.
 
 ![Host3-Screenshot](images/Setting-IP-12313676-Host3.png) 
 
 **Host 4** 
 
-The IP is assigned via terminal. Open host4 terminal and edit the configuration file *interfaces* located in /etc/network directory.
-Used text editor nano to edit the configuration file. \
-The IP assigned is fixed and the restart doesnt removed the IP. 
 
 ![Host-Screenshot](images/Setting-IP-112313676-Host4.png) 
 
