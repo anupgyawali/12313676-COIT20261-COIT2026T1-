@@ -60,7 +60,7 @@ Data size:
 Limiting count: 
 
 
-![Ping-Screenshot](images/Ping-Basics-12313676-limit-options.png)
+![Ping-Screenshot](images/Ping-Basics-12313676-options.png)
 
 interval:
 
