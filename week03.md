@@ -3,3 +3,5 @@
 
 ## showing the commands and the messages (e.g., name and ID).
 
+
+![Screenshot](images/NetCat-Basics-12313676-client-server.png)
