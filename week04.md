@@ -71,5 +71,10 @@
      
 
 
+6. output of trace router stopping and without stopping:
+
+
+   ![OSPF-Screenshot](images/FRR1-12313676-NO-TERMINATING.png)  
+
 
 
