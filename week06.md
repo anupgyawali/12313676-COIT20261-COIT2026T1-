@@ -17,7 +17,7 @@
 ## Network Diagram: 
 
 
-![Network-diagram](images/ARP-Basics-12313676-hostA-Table.png) 
+![Network-diagram](images/Default-Gateway-12313676-network.png) 
 
 
 
