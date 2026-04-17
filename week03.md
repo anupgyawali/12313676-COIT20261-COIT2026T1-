@@ -5,3 +5,8 @@
 
 
 ![Screenshot](images/NetCat-Basics-12313676-client-server.png)
+
+
+# Task 2: PCAP file:
+
+![P-CAP](PCAP-FILE/Capture-Basics-12313676-ping-netcat.pcap)
