@@ -33,8 +33,6 @@
 
 # Routing Summary Table (All Routers)
 
-# Routing Summary Table (All Routers)
-
 | Router | Destination Network | Next Node |
 |--------|----------------------|-----------|
 | **FRR‑1** | 10.10.1.0/24 | Direct (eth0) |
@@ -73,10 +71,5 @@
      
 
 
-6. Traceroute Command Output    
-* Without stopping NETem      
-![TracerouteScreenshot](Images/OSPF-Basics-12313676-network-traceroute.png)   
 
-* Stopping NETem 1     
-![TracerouteScreenshot](Images/OSPF-Basics-12313676-network-traceroute-linkdown.png)   
 
