@@ -11,13 +11,13 @@
 ![Ping](images/View-Routes-12313676-ping.png)
 
 
-## Testing Results
+## Testing Results- task1
 
 A network topology was created in GNS3 consisting of three Linux hosts, one Linux router, and one Ethernet switch. Two hosts and the router were connected through the switch, while the third host was connected directly to the router, creating two different subnets. Static IP addresses were assigned to all hosts and router interfaces using the **/etc/network/interfaces** configuration file. Each host was configured with its IP address, network mask, and default gateway. The router interfaces were configured with IP addresses belonging to the two different subnets. IP forwarding was enabled on the router using **sysctl net.ipv4.ip_forward=1** and disabled on the hosts using **sysctl net.ipv4.ip_forward=0**. This ensured that only the router was responsible for forwarding packets between the two networks. The routing tables of each device were examined using the command **ip route show**. The routing tables displayed the directly connected networks and the default gateway information for each host. Connectivity between hosts in different subnets was tested using the **ping** command. The test was successful, confirming that the router correctly forwarded packets between the two networks.
 
 ## Task 2: Dynamic Routing with OSPF
 
-## Testing Results
+## Testing Results-task2
 
 The OSPF template project was imported into GNS3 and duplicated for experimentation. The network consisted of two hosts and four routers configured with the FRRouting (FRR) software to implement dynamic routing using the OSPF protocol. After starting all nodes and waiting for the routers to fully boot, the **vtysh** interface was accessed to run routing commands. The command **show ip ospf neighbor** was used to identify neighbouring routers connected to each router. The command **show ip ospf route** displayed the dynamic routes learned through the OSPF protocol. These routes included destination networks and the next-hop router used to reach those networks. The command **show ip route** was also used to observe the routing table used by the Linux system for packet forwarding. The **traceroute** command was executed from one host to the other to determine the path taken by packets through the network. The results showed the sequence of routers used to reach the destination. To simulate a network failure, one of the links on the active path was disconnected by stopping the corresponding NETem node. After this change, the **traceroute** command was executed again. The results showed that OSPF automatically recalculated the routing path and redirected traffic through an alternative route. This demonstrated the ability of dynamic routing protocols to adapt to network changes.
 
