@@ -9,4 +9,4 @@
 
 # Task 2: PCAP file:
 
-![P-CAP](PCAP-FILE/Capture-Basics-12313676-ping-netcat.pcap)
+[P-CAP](Capture-Basics-12313676-ping-netcat.pcap)
