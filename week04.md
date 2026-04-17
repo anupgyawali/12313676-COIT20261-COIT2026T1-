@@ -10,7 +10,7 @@
 ![IPRoutes-Scr](images/View-Routes-12313676-ipaddress-routingtable.png)   
 
 4. Ping to other network       
-![Ping-SShot](images/View-Routes-12313676-ping.png)   
+![Ping](images/View-Routes-12313676-ping.png)   
 
 ## Task 2: Dynamic Routing with OSPF
 
