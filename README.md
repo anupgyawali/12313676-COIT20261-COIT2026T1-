@@ -1,6 +1,7 @@
 # Anup Gyawali-COIT20261 Network services and automation
 
 
+## weekly progress: 
 
 [Week01](./week01.md)
 
@@ -18,3 +19,15 @@
 
 
 [Week06](./week06.md)
+
+
+
+## Tools used: 
+
+Github
+Oracle virtualbox
+Gns3
+
+## Author:
+
+Anup Gyawali
