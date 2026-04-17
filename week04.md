@@ -1,7 +1,7 @@
 # Week 04: Routing
 # Task 1: View Routing Tables  
 1. GNS3 Project file      
-[GNS3 File](View-Routes-12313676.gns3project)   
+[GNS3 File](/Gns3-files/View-Routes-12313676.gns3project)   
 
 2. Network Diagram   
 ![Screenshot](images/View-Routes-12313676-network.png)
