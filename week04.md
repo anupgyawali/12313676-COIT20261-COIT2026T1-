@@ -4,16 +4,13 @@
 [GNS3 File](View-Routes-12313676.gns3project)   
 
 2. Network Diagram   
-![Screenshot](Images/View-Routes-12313676-network.png)
+![Screenshot](images/View-Routes-12313676-network.png)
 
 3. Record of IP Routes   
-![IPRoutes-Scr](Images/View-Routes-12313676-host1-route.png)   
-![IPRoutes-Scr](Images/View-Routes-12313676-host2-route.png)   
-![IPRoutes-Scr](Images/View-Routes-12313676-router-route.png)   
-![IPRoutes-Scr](Images/View-Routes-12313676-host3-route.png)   
+![IPRoutes-Scr](images/View-Routes-12313676-ipaddress-routingtable.png)   
 
 4. Ping to other network       
-![Ping-SShot](Images/View-Routes-12313676-ping.png)   
+![Ping-SShot](images/View-Routes-12313676-ping.png)   
 
 ## Task 2: Dynamic Routing with OSPF
 
