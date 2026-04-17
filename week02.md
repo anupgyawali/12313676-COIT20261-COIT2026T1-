@@ -73,10 +73,10 @@ Network connectivity between hosts was tested using the **ping** command. First,
 
 
 ## Reflections
-This week improved my understanding of multiple ways to configure static IP addresses in Linux, including persistent configuration through `/etc/network/interfaces` and temporary assignment using the `ip` command. Reloading the interface helped reinforce how Linux applies network settings. The ping exercises strengthened my ability to interpret RTT, packet loss, and how command-line options influence network testing. Overall, this task increased my confidence in basic network configuration and troubleshooting in GNS3.
+This week improved my understanding of multiple ways to configure static IP addresses in Linux, including persistent configuration through /etc/network/interfaces and temporary assignment using the ip command. Reloading the interface helped reinforce how Linux applies network settings. The ping exercises strengthened my ability to interpret RTT, packet loss, and how command-line options influence network testing. Overall, this task increased my confidence in basic network configuration and troubleshooting in GNS3.
 
 
 ## Notes on Key Concepts Learned
-Key concepts learned include three approaches to static IP configuration (GNS3 Configure menu, editing `/etc/network/interfaces`, and using `ip address add`), the difference between persistent and non-persistent IP assignments, and the need to reload interface settings when editing configuration files. I also learned how ping works, how to interpret RTT and packet loss, and how options like count, interval, and packet size affect ping behaviour.
+Key concepts learned include three approaches to static IP configuration GNS3 Configure menu, editing /etc/network/interfaces, and using ip address add, the difference between persistent and non-persistent IP assignments, and the need to reload interface settings when editing configuration files. I also learned how ping works, how to interpret RTT and packet loss, and how options like count, interval, and packet size affect ping behaviour.
 
 
