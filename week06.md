@@ -3,7 +3,7 @@
 ## SS OF ARP table of host A: 
 
 
-![Network-Screenshot](images/GNS-intro-12313676.png) 
+![Network-Screenshot](images/ARP-Basics-12313676-hostA-Table.png) 
 
 
 
