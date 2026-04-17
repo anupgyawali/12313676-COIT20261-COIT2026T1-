@@ -3,3 +3,42 @@
 ## SS OF ARP table of host A: 
 
 
+![Network-Screenshot](images/GNS-intro-12313676.png) 
+
+
+
+# Task 2: Default Gateways
+
+
+## Gns3 project: 
+
+
+
+## Network Diagram: 
+
+
+
+
+## Record of IP and routing tables:
+
+
+
+
+
+
+
+## ss of successful ping:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
