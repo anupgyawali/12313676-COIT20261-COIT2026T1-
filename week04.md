@@ -6,10 +6,8 @@
 2. Network Diagram   
 ![Screenshot](images/View-Routes-12313676-network.png)
 
-3. Record of IP Routes   
-![IPRoutes-Scr](images/View-Routes-12313676-ipaddress-routingtable.png)   
 
-4. Ping to other network       
+3. Ping to other network       
 ![Ping](images/View-Routes-12313676-ping.png)   
 
 ## Task 2: Dynamic Routing with OSPF
