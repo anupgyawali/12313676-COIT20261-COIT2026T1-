@@ -2,4 +2,4 @@
 
 
 
-[week01](./weeko1.md)
+[week01](./week01.md)
