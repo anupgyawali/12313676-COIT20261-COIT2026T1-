@@ -17,17 +17,17 @@
 ## Outputs
 
 1. GNS3 File demonstrating OSPF    
-[GNS3-SPFile](GNS3-Files/OSPF-Basics-12313676-Template.gns3project)   
+[GNS3-File](OSPF-Basics-12313676.gns3project)   
 
 2. Network Diagram demonstrating OSPF     
-![IPRoutes-Scr](Images/OSPF-Basics-12313676-network.png)   
+![IPRoutes-Scr](images/OSPF-Basic-12313676-network.png)   
 
 3. Neigbour routers of FRR1     
-![OSPF-Screenshot](Images/OSPF-Basics-12313676-neigbhor-router.png)   
+![OSPF-Screenshot](images/FRR1-12313676-NO-TERMINATING.png)   
 
 4. Routing table for two routers       
-![OSPFTable-Screenshot](Images/OSPF-Basics-12313676-routing-table-FFR2.png)     
-![OSPFTable-Screenshot](Images/OSPF-Basics-12313676-routing-table-FFR3.png)    
+![OSPFTable-Screenshot](images/FRR1-12313676-SHOWING-ROUTE.png)     
+![OSPFTable-Screenshot](images/FRR3-12313676-SHOWING-ROUTE.png)    
 
 5. Routing Table Summary    
 
