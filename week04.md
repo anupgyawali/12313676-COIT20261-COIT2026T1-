@@ -36,6 +36,8 @@
 
 # Routing Summary Table (All Routers)
 
+# Routing Summary Table (All Routers)
+
 | Router | Destination Network | Next Node |
 |--------|----------------------|-----------|
 | **FRR‑1** | 10.10.1.0/24 | Direct (eth0) |
@@ -43,28 +45,35 @@
 | FRR‑1 | 10.10.3.0/24 | Direct → FRR‑3 |
 | FRR‑1 | 10.10.4.0/24 | FRR‑2 |
 | FRR‑1 | 10.10.5.0/24 | FRR‑3 |
-| FRR‑1 | 10.10.6.0/24 | FRR‑2 or FRR‑3 |
-
+| FRR‑1 | 10.10.6.0/24 | FRR‑2 or FRR‑3 |    
+     
+| Router | Destination Network | Next Node |
+|--------|----------------------|-----------|
 | **FRR‑2** | 10.10.2.0/24 | Direct (eth0 → FRR‑1) |
 | FRR‑2 | 10.10.4.0/24 | Direct (eth1 → NETem1) |
 | FRR‑2 | 10.10.1.0/24 | FRR‑1 |
 | FRR‑2 | 10.10.3.0/24 | FRR‑1 or FRR‑3 |
 | FRR‑2 | 10.10.5.0/24 | FRR‑3 |
 | FRR‑2 | 10.10.6.0/24 | FRR‑4 |
-
+       
+| Router | Destination Network | Next Node |
+|--------|----------------------|-----------|
 | **FRR‑3** | 10.10.3.0/24 | Direct (eth0 → FRR‑1) |
 | FRR‑3 | 10.10.5.0/24 | Direct (eth1 → NETem2) |
 | FRR‑3 | 10.10.1.0/24 | FRR‑1 |
 | FRR‑3 | 10.10.2.0/24 | FRR‑1 or FRR‑2 |
 | FRR‑3 | 10.10.4.0/24 | FRR‑2 |
-| FRR‑3 | 10.10.6.0/24 | FRR‑4 |
-
+| FRR‑3 | 10.10.6.0/24 | FRR‑4 |    
+     
+| Router | Destination Network | Next Node |
+|--------|----------------------|-----------|
 | **FRR‑4** | 10.10.6.0/24 | Direct (eth0) |
 | FRR‑4 | 10.10.4.0/24 | FRR‑2 |
 | FRR‑4 | 10.10.5.0/24 | FRR‑3 |
 | FRR‑4 | 10.10.2.0/24 | FRR‑2 or FRR‑3 |
 | FRR‑4 | 10.10.3.0/24 | FRR‑3 or FRR‑2 |
 | FRR‑4 | 10.10.1.0/24 | FRR‑1 (via FRR‑2 or FRR‑3) |
+     
 
 
 6. Traceroute Command Output    
