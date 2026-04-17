@@ -30,8 +30,6 @@
 **Host 4** 
 
 
-![Host-Screenshot](images/Setting-IP-112313676-Host4.png) 
-
 
 ![Host-Screenshot](images/Setting-IP-12313676-Host4.png) 
 
