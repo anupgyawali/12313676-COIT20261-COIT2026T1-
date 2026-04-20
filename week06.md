@@ -41,6 +41,67 @@ A network with four hosts, two routers, and two switches across three subnets wa
 
 
 
+## IP Address Configuration
+
+| Device | Interface | IP Address | Subnet | Gateway |
+|------|------|------|------|------|
+| Host1 | eth0 | 10.10.1.76 | 10.10.1.0/24 | 10.10.1.1 |
+| Host2 | eth0 | 10.10.1.77 | 10.10.1.0/24 | 10.10.1.1 |
+| Router1 | eth0 | 10.10.1.1 | 10.10.1.0/24 | - |
+| Router1 | eth1 | 10.10.2.76 | 10.10.2.0/24 | - |
+| Router2 | eth1 | 10.10.2.77 | 10.10.2.0/24 | - |
+| Router2 | eth0 | 10.10.3.1 | 10.10.3.0/24 | - |
+| Host3 | eth0 | 10.10.3.76 | 10.10.3.0/24 | 10.10.3.1 |
+| Host4 | eth0 | 10.10.3.77 | 10.10.3.0/24 | 10.10.3.1 |
+
+---
+
+## Routing Tables
+
+### Host1
+
+| Destination | Gateway | Interface |
+|-------------|-------------|-------------|
+| 10.10.1.0/24 | Direct | eth0 |
+| Default | 10.10.1.1 | eth0 |
+
+### Host2
+
+| Destination | Gateway | Interface |
+|-------------|-------------|-------------|
+| 10.10.1.0/24 | Direct | eth0 |
+| Default | 10.10.1.1 | eth0 |
+
+### Router1
+
+| Destination | Gateway | Interface |
+|-------------|-------------|-------------|
+| 10.10.1.0/24 | Direct | eth0 |
+| 10.10.2.0/24 | Direct | eth1 |
+| 10.10.3.0/24 | 10.10.2.77 | eth1 |
+
+### Router2
+
+| Destination | Gateway | Interface |
+|-------------|-------------|-------------|
+| 10.10.3.0/24 | Direct | eth0 |
+| 10.10.2.0/24 | Direct | eth1 |
+| 10.10.1.0/24 | 10.10.2.76 | eth1 |
+
+### Host3
+
+| Destination | Gateway | Interface |
+|-------------|-------------|-------------|
+| 10.10.3.0/24 | Direct | eth0 |
+| Default | 10.10.3.1 | eth0 |
+
+### Host4
+
+| Destination | Gateway | Interface |
+|-------------|-------------|-------------|
+| 10.10.3.0/24 | Direct | eth0 |
+| Default | 10.10.3.1 | eth0 |
+
 
 
 
