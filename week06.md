@@ -1,4 +1,4 @@
-## Week 6: Address Resolution and Management
+# Week 6: Address Resolution and Management
 
 # Task 1: Resolving IP Addresses to Hardware Addresses
 
