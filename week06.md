@@ -33,6 +33,8 @@
 
 
 
+![Sucessful-ping](images/Default-Gateway-12313676-ping.png) 
+
 
 
 
