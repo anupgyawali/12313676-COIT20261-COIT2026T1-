@@ -12,7 +12,7 @@
 
 ## Gns3 project: 
 
-[GNS3 File](Gns3-files/View-Routes-12313676.gns3project) 
+[GNS3 File](Gns3-files/Default-Gateway-12313676.gns3project) 
 
 ## Network Diagram: 
 
